@@ -23,4 +23,8 @@ function addNote() {
     const note = button.parentElement;
     note.remove();
   }
+
+  document.getElementById('toggle-mode').addEventListener('click', () => {
+    document.body.classList.toggle('dark');
+  });
   
